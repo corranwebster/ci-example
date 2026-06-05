@@ -8,6 +8,9 @@ def test_3():
 def test_5():
     assert factorial(5) == 120
 
+def test_6():
+    assert factorial(6) == 720
+
 def test_negative():
     with pytest.raises(ValueError):
       factorial(-1)
